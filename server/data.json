@@ -1,0 +1,270 @@
+{
+  "GLaDOS": {
+    "subjectId": "admin",
+    "password": "password"
+  },
+  "testQuestions": [
+    {
+      "id": 1,
+      "label": "How was your day?",
+      "type": "text",
+      "Required": false,
+      "Options": null
+    },
+    {
+      "id": 2,
+      "label": "At any point this week, did you experience overwhelming feelings of doom?",
+      "type": "text",
+      "Required": false,
+      "Options": null
+    },
+    {
+      "id": 3,
+      "label": "How was your month??",
+      "type": "text",
+      "Required": false,
+      "Options": null
+    },
+    {
+      "id": 4,
+      "label": "How was your month??",
+      "type": "text",
+      "Required": false,
+      "Options": null
+    }
+  ],
+  "subjects": [
+    {
+      "subjectId": "user",
+      "username": "1",
+      "testChamber": 1,
+      "DateOfBirth": "1988-04-07T07:50:00Z",
+      "totalScore": 86,
+      "alive": true,
+      "password": "password"
+    },
+    {
+      "subjectId": "6ee6de51-a43e-48cb-83db-f6fc82f941d9",
+      "username": "2",
+      "testChamber": 14,
+      "DateOfBirth": "1974-12-24T08:53:00Z",
+      "totalScore": 12,
+      "alive": false,
+      "password": "WeightedLove"
+    },
+    {
+      "subjectId": "442619aa-8850-47b0-8c85-f46f6b5ba4a8",
+      "username": "3",
+      "testChamber": 54,
+      "DateOfBirth": "1999-03-20T01:53:00Z",
+      "totalScore": 90,
+      "alive": false,
+      "password": "Cubecubecube"
+    },
+    {
+      "subjectId": "ed5183fc-af62-4867-a705-a3ef96024e34",
+      "username": "4",
+      "testChamber": 1,
+      "DateOfBirth": "1988-01-17T10:52:00Z",
+      "totalScore": 86,
+      "alive": true,
+      "password": "thereisnocube"
+    },
+    {
+      "subjectId": "614cfcb9-0111-43dd-81c7-5a4340e9f99e",
+      "username": "5",
+      "testChamber": 14,
+      "DateOfBirth": "1974-02-08T11:20:00Z",
+      "totalScore": 12,
+      "alive": false,
+      "password": "123companion"
+    },
+    {
+      "subjectId": "175636a6-1e4a-4e8a-b72d-145e9f042bae",
+      "username": "6",
+      "testChamber": 54,
+      "DateOfBirth": "1980-06-26T01:02:00Z",
+      "totalScore": 90,
+      "alive": false,
+      "password": "potato"
+    }
+  ],
+  "testSubmissions": [
+    {
+      "id": 1,
+      "subjectId": "175636a6-1e4a-4e8a-b72d-145e9f042bae",
+      "responses": [
+        {
+          "id": 1,
+          "Value": "blue"
+        },
+        {
+          "id": 2,
+          "Value": "yes"
+        },
+        {
+          "id": 3,
+          "Value": true
+        },
+        {
+          "id": 4,
+          "Value": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "subjectId": "175636a6-1e4a-4e8a-b72d-145e9f042bae",
+      "responses": [
+        {
+          "id": 1,
+          "Value": "orange"
+        },
+        {
+          "id": 2,
+          "Value": "Cubes are nice"
+        },
+        {
+          "id": 3,
+          "Value": true
+        },
+        {
+          "id": 4,
+          "Value": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "subjectId": "175636a6-1e4a-4e8a-b72d-145e9f042bae",
+      "responses": [
+        {
+          "id": 1,
+          "Value": "orange"
+        },
+        {
+          "id": 2,
+          "Value": ""
+        },
+        {
+          "id": 3,
+          "Value": false
+        },
+        {
+          "id": 4,
+          "Value": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "subjectId": "ed5183fc-af62-4867-a705-a3ef96024e34",
+      "responses": [
+        {
+          "id": 1,
+          "Value": "blue"
+        },
+        {
+          "id": 2,
+          "Value": "yes"
+        },
+        {
+          "id": 3,
+          "Value": true
+        },
+        {
+          "id": 4,
+          "Value": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "subjectId": "442619aa-8850-47b0-8c85-f46f6b5ba4a8",
+      "responses": [
+        {
+          "id": 1,
+          "Value": "normal"
+        },
+        {
+          "id": 2,
+          "Value": "yes"
+        },
+        {
+          "id": 3,
+          "Value": true
+        },
+        {
+          "id": 4,
+          "Value": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "subjectId": "f1ba33b5-07bf-4d55-9ea4-ea20c4348c49",
+      "responses": [
+        {
+          "id": 1,
+          "Value": "normal"
+        },
+        {
+          "id": 2,
+          "Value": "no"
+        },
+        {
+          "id": 3,
+          "Value": true
+        },
+        {
+          "id": 4,
+          "Value": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "subjectId": "user",
+      "responses": [
+        {
+          "id": "1",
+          "value": "Test1"
+        },
+        {
+          "id": "2",
+          "value": "asdasd"
+        },
+        {
+          "id": "3",
+          "value": "3"
+        },
+        {
+          "id": "4",
+          "value": "last"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "subjectId": "user",
+      "responses": [
+        {
+          "id": "1",
+          "value": "AAAAAAAA"
+        },
+        {
+          "id": "2",
+          "value": "B"
+        },
+        {
+          "id": "3",
+          "value": "CCC"
+        },
+        {
+          "id": "4",
+          "value": "DDD"
+        }
+      ]
+    }
+  ]
+}
